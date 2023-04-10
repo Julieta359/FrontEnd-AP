@@ -1,0 +1,36 @@
+div {
+    background-color: black;
+    text-align: start;
+}
+div {
+    color: white;
+}
+h2,h3 {
+    display: inline;
+    color: black;
+    padding-left: 40px ;
+    padding-right: 40px;
+}
+h2 {
+    font-size: 25px;
+}
+
+h1{
+    font-size: 35px;
+    color: rgb(169, 58, 169);
+    padding-top: 20px ;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+table {
+    background: linear-gradient(to right, pink, rgb(218, 94, 205), rgb(194, 34, 205), rgb(100, 100, 238), rgb(48, 159, 233));
+    border-radius: 20px;
+    border-block-end-color: transparent;
+  }
+  
+  .row {
+    border: 10px;
+    border-style: solid;
+    border-color: transparent;
+  }

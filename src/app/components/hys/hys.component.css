@@ -1,0 +1,23 @@
+.row {
+    background-color: black;
+}
+
+h1 {
+    font-size: 35px;
+    color: rgb(169, 58, 169);
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;}
+
+
+.circulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circulo {
+    background: linear-gradient(to right, pink, rgb(218, 94, 205), rgb(194, 34, 205), rgb(100, 100, 238), rgb(48, 159, 233));
+    border-radius: 20px;
+
+}
