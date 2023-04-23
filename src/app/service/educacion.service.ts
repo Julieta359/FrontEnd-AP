@@ -8,13 +8,13 @@ import { Educacion } from '../model/educacion';
 })
 export class EducacionService {
   //URL = 'http://localhost:8080/educacion/';
-  URL = 'https://backendjds.onrender.com/educacion/';
+  URL = 'https://backjds.onrender.com/educacion/';
 
 
   constructor(private httpClient : HttpClient) { }
 
   public lista(): Observable<Educacion[]>{
-    return this.httpClient.get<Educacion[]>(this.URL + 'lista');
+    return this.httpClient.get<Educacion[]>(this.URL + `lista`);
   }
 
   public detail(id: number): Observable<Educacion>{
@@ -22,7 +22,7 @@ export class EducacionService {
   }
 
   public save(educacion: Educacion): Observable<any>{
-    return this.httpClient.post<any>(this.URL + 'create', educacion);
+    return this.httpClient.post<any>(this.URL + `create`, educacion);
   }
 
   public update(id: number, educacion: Educacion): Observable<any>{

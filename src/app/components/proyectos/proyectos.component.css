@@ -1,29 +1,36 @@
 .contenedor {
     color: black;
     background: linear-gradient(to right, pink, rgb(218, 94, 205), rgb(194, 34, 205), rgb(100, 100, 238), rgb(48, 159, 233));
-border: 10px;
-border-radius: 10px;
+    border: 10px;
+    border-radius: 10px;
 }
 
-h2,h3 {
+h2,
+h3 {
     display: inline;
     color: #21091f;
-    padding-left: 40px ;
-    padding-right: 30px;}
+    padding-left: 10px;
+    padding-right: 30px;
+}
 
-    p {
-    padding-left: 30px ;
-    padding-right: 40px;
-    } 
+a {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 30px;
+}
 
 h2 {
     font-size: 25px;
 }
 
-h1{
+h1 {
     font-size: 35px;
     color: rgb(169, 58, 169);
-    padding-top: 20px ;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
