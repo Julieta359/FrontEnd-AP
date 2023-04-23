@@ -1,9 +1,40 @@
-div {
-    background-color: black ;
-    
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-app-social {
-float: right;    
-margin-top: 40px;
-margin-right: 200px;
+
+#logoAP {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.redes img {
+    margin: 8px;
+}
+
+img {
+    width: 40px;
+}
+
+@media (max-width:570px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .redes img {
+        margin: 5px;
+    }
+}
+
+.btn {
+    margin-right: 40px;
+    margin-left: 40px;
 }
